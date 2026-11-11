@@ -1,0 +1,21 @@
+# PatchDesk .gitignore
+# Swift Package Manager / Xcode build products
+.build/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.moved-aside
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.xcuserstate
+# macOS artefacts
+.DS_Store
+# PatchDesk run outputs (the app writes these to a temp dir, but
+# never commit a stray patch or report if one lands in the repo)
+patch.diff
+report.md
+report.json
+*.diff

@@ -1,0 +1,11 @@
+./.gitignore
+./Package.swift
+./README.md
+./Sources/PatchDesk/ContentView.swift
+./Sources/PatchDesk/PatchDeskApp.swift
+./Sources/PatchDesk/PatchParser.swift
+./Sources/PatchDesk/RunStatus.swift
+./Sources/PatchDesk/Runner.swift
+./Tests/PatchDeskTests/PatchParserTests.swift
+./Tests/PatchDeskTests/RunStatusTests.swift
+./macos-patchdesk-paths.txt
